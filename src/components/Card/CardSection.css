@@ -1,0 +1,17 @@
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Adjust the gap between cards as necessary */
+    padding: 20px;
+    /* Add some padding around the entire card section */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}

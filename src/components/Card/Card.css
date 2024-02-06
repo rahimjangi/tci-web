@@ -1,0 +1,62 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    /* Rounded corners */
+    overflow: hidden;
+    margin: 10px;
+    background-color: #fff;
+    /* Change as needed */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    /* Adjust based on your needs */
+    object-fit: cover;
+    /* Keeps the aspect ratio, might crop the image */
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 18px;
+    /* Adjust based on your needs */
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    /* Adjust based on your needs */
+    color: #333;
+    /* Adjust text color as needed */
+    margin-bottom: 16px;
+}
+
+.card-button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    /* Primary color */
+    color: #ffffff;
+    /* Text color */
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    /* Remove underline from anchors if used as link */
+    display: inline-block;
+    /* For link usage */
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
