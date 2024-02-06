@@ -1,0 +1,40 @@
+/* Carousel.module.css */
+.carousel {
+    position: relative;
+    max-width: 600px;
+    /* Adjust based on your preference */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    /* Optional: for rounded corners */
+}
+
+.carousel img {
+    width: 100%;
+    display: block;
+    /* Remove any space below the image */
+    transition: transform 0.5s ease;
+    /* Smooth transition for image change */
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}

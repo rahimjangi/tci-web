@@ -1,0 +1,31 @@
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* Space between icon and label */
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.button:hover:enabled {
+    background-color: #0056b3;
+}
+
+.icon {
+    display: inline-block;
+    /* Adjust the size of the icons if necessary */
+    width: 20px;
+    height: 20px;
+}
